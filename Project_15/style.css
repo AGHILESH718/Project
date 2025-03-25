@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom,rgb(243, 81, 81),rgba(49, 135, 6, 0.43));
+}
+.container{
+    width: 50%;
+    border: 2px solid black;
+}
