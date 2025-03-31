@@ -1,0 +1,19 @@
+.Cart{
+    text-align: center;
+}
+.App{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.product{
+     flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cartcontainer{
+    flex: 1; /* Takes 25% of the width */
+    padding: 20px;
+}

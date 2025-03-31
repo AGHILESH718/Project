@@ -1,0 +1,12 @@
+.Products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Men{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Women{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

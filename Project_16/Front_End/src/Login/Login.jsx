@@ -1,17 +1,19 @@
-import React, { useState } from 'react'
+import React, { createContext, useState } from 'react'
 import { Link } from 'react-router-dom';
 
+export const passingValue = createContext()
+
 const Login = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState(null);
   const [password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Login with:",email,password);
-    
+    console.log("Login with:",email,password);    
   };
 
   return (
+    <passingValue.Provider value={{email,setEmail}} >
     <div className='Login'>
         <div className="App">
         <form onSubmit={handleSubmit}>
@@ -55,6 +57,7 @@ const Login = () => {
         </form>
       </div>
     </div>
+    </passingValue.Provider>
   )
 }
 

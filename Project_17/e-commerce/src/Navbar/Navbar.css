@@ -1,0 +1,11 @@
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: 600;   
+}
+a{
+    text-decoration: none;
+}
