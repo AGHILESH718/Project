@@ -1,13 +1,13 @@
-import React, { useContext } from 'react'
-import { passingValue } from '../Login/Login'
+import React, { useContext, useState } from 'react'
 
 const Forget = () => {
-  const { email,setEmail } = useContext(passingValue)
+  const [email,setEmail] = useState([])
   
   const handleSubmit = (e) =>{
     e.preventDefault();
-    console.log("Password link send to your ",email);
+    console.log("Password link send to your mail",email);
   }
+  
   return (
     <div className='Forget'>
       <h2>Forget Password</h2>

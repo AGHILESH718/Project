@@ -125,3 +125,15 @@ button:hover {
   justify-content: center;
   gap: 10px;
 }
+.Forget{
+  border: 2px solid black;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #ccc;
+}
+.Forget input{ 
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  background-color: transparent;
+}
