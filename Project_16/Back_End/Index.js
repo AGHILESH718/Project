@@ -11,5 +11,5 @@ App.use(express.json())
 App.use('/prep',router);
 
 App.listen(port,()=>{
-  console.log(`The server is http://localhost: ${port}`);
+  console.log(`The server is http://localhost:${port}`);
 })

@@ -1,8 +1,10 @@
 import express from 'express'
-import { Read } from './Controller.js';
+import { Insert, Read } from './Controller.js';
 
 const router = express.Router()
 
 router.get('/read',Read);
+
+router.post ('/insert',Insert)
 
 export default router
